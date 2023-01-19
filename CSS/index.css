@@ -28,7 +28,7 @@ a{
 }
 
 a::before{
-    content: "";
+    content:"";
     color: yellow;
     background-color: #F25A70;
     width: 10px;
@@ -49,5 +49,64 @@ a::before{
 }
 
 #button:hover{
+    transform: scale(1.08);
+}
+
+section{
+    position: absolute;
+    background-color: #3A4042 ;
+    width: 627px;
+    height: 184px;
+    top: 196px;
+    left: 91px;
+    font-family: "Press Start 2p";
+    font-style: normal;
+}
+
+
+#nome{
+    width:440px ;
+    height: 40px;
+    left: 181px;
+    top: 238px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #F25A70;
+    text-shadow: 4px 4px 0px #000;
+    margin-top: 42px;
+    margin-left: 90px;
+    margin-right: 97px;
+}
+#cargo{
+    width: 540px;
+    height: 30px;
+    left: 131px;
+    top: 306px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 4px 4px 0px #000;
+    margin-top: 28px;
+    margin-left: 40px;
+    margin-right: 47px;
+    margin-bottom: 44px;
+}
+.button1{
+    background-color: #F25A70;
+    display: inline-block;
+    width: 170px;
+    height: 60px;
+    margin-top: 418px;
+    margin-left: 181px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px black;
+    transition: transform 200ms linear;
+    align-items: center ;
+    padding-left: 20px;
+}
+
+.button1:hover{
     transform: scale(1.08);
 }
